@@ -45,7 +45,7 @@ The Node.js application in this repository is a basic web server that serves a s
 2. Run the Docker container:
 
    ```bash 
-   docker run -p 3000:3000 nodejs-app
+   docker run -p 8080:8080 nodejs-app
 Deploying with Helm
 Ensure your Kubernetes cluster is up and running.
 
