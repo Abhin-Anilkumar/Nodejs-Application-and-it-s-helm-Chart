@@ -53,7 +53,8 @@ Ensure your Kubernetes cluster is up and running.
 
 1.  Run the below commad 
     ```bash
-    helm install nodejs-app ./charts/nodejs-app 
+    cd nodejs-application
+    helm install nodejs-app . -n <namespace>
 
 2. Verify the deployment:
 
